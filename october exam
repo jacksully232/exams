@@ -1,0 +1,17 @@
+#2
+#jack osullivan
+print("welcome to temperture alert system")
+number = int(input("please enter a number"))
+if number <20:
+    print("to cold turn up heating")
+elif number ==20 and number <24:
+    print("temputure is just right")
+else:
+    print(" too warm turn down the heating")
+    
+~question 1
+# jack osullivan
+taylorswiftsongs=["love story", "shakeit off", "delicate", "wilidest dreams", "all too well", "blank space", "bad blood", "you belong with me" , "red", "22"]
+int(input(print("enter a song from the list")))
+taylorswiftsongs.append(2)
+
