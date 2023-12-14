@@ -1,0 +1,25 @@
+#jackosullivan
+print("this claultore can only add and subtract") # i
+name= input("please enter your name") # ii
+print("hello",name) #iii
+num1 = int(input("please enter a number"))
+num2 = int(input("please enter a number")) #iv
+
+print(" do you want me to (A)dd or (S)ubtract") #vi
+choice =input()
+
+if choice == "a":
+    print(num1+ num2)
+elif choice =="s":
+    print(num1-num2)
+else: #vii
+    print("invalid option")
+    
+num1 = int(input("please enter a number"))
+num2 = int(input("please enter a number")) #viii
+
+
+print(" do you want me to (A)dd or (S)ubtract") 
+choice =input()
+
+    
