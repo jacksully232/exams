@@ -1,0 +1,18 @@
+#Student Name=jack osullivan
+
+
+print("Household budget calculator")
+num_adults = int(input("enter the amount of adultds in the house"))   #(i)
+num_child = int(input("eneter the amount of children in the house"))
+
+food_budget = 300
+cost_food_adult = 50
+cost_food_child = 35
+iflantion=food_budget**0.1
+round(iflantion)
+print(iflantion)    #(iii)
+child_allowance = 140
+if num_child >3 +20: #(ii)
+    print("Children's allowance total: €", child_allowance*num_child)
+print("Total household food cost: €", cost_food_adult*num_adults+cost_food_child*num_child+iflantion)
+print("remainder=",child_allowance+food_budget-cost_food_adult*num_adults+cost_food_child*num_child+iflantion)#(vi)
