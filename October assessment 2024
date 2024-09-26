@@ -1,0 +1,56 @@
+#q1a
+#jack o sullivan
+print("this program can find the perimeter or area of a quadrilaterial")#(i)
+lenght = float(input("please enter the lenght"))#(iii)
+width = float(input("please enter the width"))
+ 
+name = input("please eneter your name")
+choice = input(" do you want to find the (p)erimeter or (a)rea?")
+if choice =="p":
+    print(round(lenght + lenght+ width + width ,)) #iv
+elif choice =="a":
+    print(round(lenght*width))
+print("thank you for using the program",name,) #(ii)
+
+
+#1b
+# jack osullivan
+import random
+choice=input("please enter rock , paper or scissors")#(i)
+print("plaer choose",choice,)
+computer_options = ["rock", "paper", "scissors"]
+
+computerchoice = computer_options [random.randint(0,2)]
+print("computer choose",computerchoice,)
+if choice == ("rock") and computerchoice ==("paper"):
+    print("player lose")
+elif choice == ("rock") and computerchoice ==("rock"):
+    print("its a draw")
+elif choice == ("rock") and computerchoice ==("scissors"):
+    print("you win")  
+elif choice == ("scissors") and computerchoice ==("paper"):
+    print("you win")
+elif choice == ("scissors") and computerchoice ==("scissors"):
+    print("its a draw")
+elif choice == ("scissors") and computerchoice ==("rock"):
+    print("you lose")
+elif choice == ("paper") and computerchoice ==("paper"):
+    print("its a draw")
+elif choice == ("paper") and computerchoice ==("scissors"):
+    print("you lose")
+elif choice == ("paper") and computerchoice ==("rock"):
+    ("you win")
+
+
+
+#q2
+#jack o sullivan
+def concert():
+    print(" this a website to buy tickects")
+print("(r)egular tickets are 75 each")
+print("(b)udgest tickects are 40 each")
+print("(v)ip are 150 each")
+    
+print(input("what type of tickect do you want"))
+if  "v":
+    print(" that will be 150 please")
