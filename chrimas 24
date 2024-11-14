@@ -1,0 +1,31 @@
+#q1 jack os
+from random import choice
+
+fruits = ['apple', 'cherry', 'orange']
+
+random_fruits_1 = choice(fruits)
+random_fruits_2 = choice(fruits)#ii added more 
+random_fruits_3 = choice(fruits)
+print(random_fruits_1) # i
+print(random_fruits_2) 
+print(random_fruits_3)
+
+print("first fruit is" ,random_fruits_1,) # iii
+if random_fruits_1 == random_fruits_2:# iv 
+    print("the first pair match")
+    
+if random_fruits_1 == random_fruits_2:
+  print(" the first pair are!" ,random_fruits_1,)# v
+  
+elif random_fruits_2 == random_fruits_3: #vi
+    print("matching pair")
+    
+elif random_fruits_1 == random_fruits_3:
+    print("matching pair")
+    
+#2 jack os
+print(" split bill calculator")
+bill = float(input("how much is the bill"))
+people =int(input("how many people are eating"))
+total = ('you each owe' ,bill/people,)
+print(total)
